@@ -3,13 +3,57 @@ body{
     height: 100vh;
     padding: 1.5rem;
 }
+.main-body{
+    display: flex;
+    flex-direction: column;
+    
+}
 .header-section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background: whitesmoke;
+    background: white;
+    padding: 1.5rem;
 }
 .menu-list{
+    border: 1px solid black;
+    font-weight: bold;
+    padding: 0.5rem;
 
+}
+.hero-section{
+    background: #A82424;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    color: white;
+    font-weight:700;
+    font-size: larger;
+
+}
+.hero-section p{
+    max-width: 250px;
+}
+.menu-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    gap: 5px;
+}
+.menu-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.salse-items{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
 }
